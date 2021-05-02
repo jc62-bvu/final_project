@@ -14,9 +14,9 @@ def by_city():
     show_data(data)
 
     question = input('Do you want to do another search ? Type Yes or No: ')
-    if question == 'Yes':
+    if question == 'Yes' :
         main()
-    if question == 'No':
+    if question == 'No' :
         print("Enjoy the rest of your day!")
         exit()
 
@@ -54,7 +54,7 @@ def show_data(data):
     print('Description : {}'.format(description))
 
 
-# defining main function with while loop code to run the program
+# defining main function with while loop
 
 
 def main():
